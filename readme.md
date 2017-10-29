@@ -39,7 +39,6 @@
     通用缓存以及nosql等
     urss-data-mongodb
     urss-data-redis
-    urss-data-hbase
     urss-data-memcache
    
     通用文件等
@@ -50,7 +49,14 @@
     urss-data-sharding-jdbc
     urss-data-alirdrs
     
-            
+   大数据相关
+    urss-data-hbase
+    urss-data-presto
+    urss-data-spark
+    urss-data-drill
+    urss-data-kylin
+        
+
             
     
 ## urss-finder
