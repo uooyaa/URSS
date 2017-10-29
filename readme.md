@@ -1,21 +1,21 @@
-#基于分布式服务（RPC以及微服务）的应用框架
-##URSS uooyaa-shareservice
-##@since20170828
+# 基于分布式服务（RPC以及微服务）的应用框架
+## URSS uooyaa-shareservice
+## @since20170828
  
-#URSS目标
+# URSS目标
     JAVA企业应用颇具柔性的共享服务开源框架 
     开发人员只要写业务
     所有微服务、分布式服务、RPC、共享服务、SOA的好处以及相关管理都可以柔性扩充
     扩充的基础基于目前存量IT基础资产
     
-#URSS解决的问题
+# URSS解决的问题
     coming soon
     
     
-#URSS适合人群
+# URSS适合人群
     coming soon
 
-#URSS包含模块
+# URSS包含模块
 
 ## urss-tool
     包含部署在windows和linux平台上的多集群一键更新工具
@@ -25,7 +25,7 @@
     
 ## usrr-common-sdk
     公共类
-##urss-data
+## urss-data
 
     通用RDBS数据访问门面
     urss-data-api
@@ -53,9 +53,9 @@
             
             
     
-##urss-finder
+## urss-finder
      监控、追踪、日志分析等
-##urss-micros-service
+## urss-micros-service
      通用微服务门面
      urss-micro-service-api
      urss-micro-service-core
@@ -71,7 +71,7 @@
               
      会引用urss-rpc应用中内容，替换以上某些模块底层实现
      
-##urss-rpc
+## urss-rpc
     通用rpc门面
     urss-rpc-api
     urss-rpc-core
@@ -92,7 +92,7 @@
     
   
     
-##urss-transport
+## urss-transport
     网络传输通用约定（URSS协议）
     基于企业本身需求生成约定代码并关联版本号
     支持json、xml等通用HTTP层传输
@@ -107,7 +107,7 @@
     urss-transport-text            
           
 
-##urss-logging
+## urss-logging
     通用日志门面
     urss-logging-api
     urss-logging-core
@@ -121,7 +121,7 @@
     以上不需要重复造轮子，出了部分需要从零开始写外，可以使用sl4j以及log4j2的实现
     但是对外暴露出接口一定要走日志门面，方便后续扩充
     
-##urss-message
+## urss-message
   通用消息门面
     urss-message-api
     urss-message-core
@@ -136,7 +136,7 @@
     urss-message-esb-oraweblogicjms
     urss-message-esb-ibmmq
        
- ##urss-transaction-x
+ ## urss-transaction-x
     通用分布式事务门面        
      urss-transaction-x-api
      urss-transaction-x-core
@@ -146,7 +146,7 @@
      urss-transaction-x-ejb3
      urss-transaction-x-spring
               
-  ##urss-cache
+  ## urss-cache
      通用缓存|池门面
       urss-cache-api
       urss-cache-core
@@ -168,7 +168,7 @@
            
       
      
-  ##urss-config
+  ## urss-config
     通用配置门面
       urss-config-api
       urss-config-core
@@ -178,7 +178,7 @@
      urss-config-sc-config
      urss-config-baidu-disconf 
                                   
-  ##urss-exception      
+  ## urss-exception      
        通用异常门面    
        urss-exception-api       
        urss-exception-core                                         
