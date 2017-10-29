@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cn.uooyaa.urss</groupId>
+    <artifactId>uooyaa-shareserivce-urss-pom</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module> urss-basic-root</module>
+       <module> urss-micro-service</module>
+        <module> urss-cache</module>
+        <module> urss-transport</module>
+        <module> urss-finder</module>
+        <module> urss-exception</module>
+        <module> urss-docker</module>
+        <module> urss-logging</module>
+        <module> urss-message</module>
+        <module> urss-rpc</module>
+        <module> urss-common-sdk</module>
+        <module> urss-client</module>
+        <module> urss-config</module>
+        <module> urss-data</module>
+        <module> urss-schedule</module>
+        <module> urss-security</module>
+        <module> urss-sso</module>
+        <module> urss-tool</module>
+        <module> urss-transaction-x</module>
+    </modules>
+
+    
+
+</project>
