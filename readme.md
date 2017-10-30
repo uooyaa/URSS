@@ -179,7 +179,7 @@
       urss-config-api
       urss-config-core
                                      
-     urss-config-ctrip-simple
+     urss-config-simple
      urss-config-ctrip-apollo
      urss-config-sc-config
      urss-config-baidu-disconf 
