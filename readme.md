@@ -128,19 +128,19 @@
     但是对外暴露出接口一定要走日志门面，方便后续扩充
     
 ## urss-message
-  通用消息门面
-    urss-message-api
-    urss-message-core
-  
-  消息具体实现(消息、队列等)
-    urss-message-jdknative
-    urss-message-amq
-    urss-message-rocketmq
-    urss-message-rabbitmq
-    urss-message-kafka 
-    urss-message-esb-sappx
-    urss-message-esb-oraweblogicjms
-    urss-message-esb-ibmmq
+      通用消息门面
+        urss-message-api
+        urss-message-core
+      
+      消息具体实现(消息、队列等)
+        urss-message-jdknative
+        urss-message-amq
+        urss-message-rocketmq
+        urss-message-rabbitmq
+        urss-message-kafka 
+        urss-message-esb-sappx
+        urss-message-esb-oraweblogicjms
+        urss-message-esb-ibmmq
        
  ## urss-transaction-x
     通用分布式事务门面        
